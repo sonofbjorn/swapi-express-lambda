@@ -9,9 +9,7 @@ functions:
   swapi:
     handler: lambda.handler
     events:
-      - http:
-          path: person
-          method: get
+      - http: ANY {proxy+}
 package:
   exclude:
     - .vscode/**
