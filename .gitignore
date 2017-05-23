@@ -1,2 +1,7 @@
-/node_modules
+# dirs
+/.serverless
 /.vscode
+/node_modules
+
+# files
+.env.yml
